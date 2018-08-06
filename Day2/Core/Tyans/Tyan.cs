@@ -52,7 +52,7 @@ namespace Day2.Core
         // TODO: Remove temp override
         public override string ToString()
         { 
-            return $"Name: {_name} \tAge: {_age} \tBreast size: {_breastSize} \tKawaiiness: {_kawaiiness}";
+            return $"Name: {_name} Age: {_age} Breast size: {_breastSize} Kawaiiness: {_kawaiiness}";
         }
 
         /// <summary>

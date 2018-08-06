@@ -52,6 +52,7 @@ namespace Day2.Core.Tyans
 
         /// <summary>
         /// Searches tyans by parameters, specified in TyanSearcher
+        /// Returns null if 0 tyans found
         /// </summary>
         /// <returns>Array with names of tyans with required parameters</returns>
         public override string[] Search()
@@ -64,6 +65,9 @@ namespace Day2.Core.Tyans
                 if (tyan.Equals(sample))
                     tyans.Add(tyan.Name);
             }
+
+            if (tyans == null || tyans.Count == 0)
+                return null;
 
             return tyans.ToArray();
         }
