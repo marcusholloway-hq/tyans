@@ -1,4 +1,8 @@
-﻿Human<br/>
+# tyans
+
+Hierarchy:
+
+Human<br/>
 |__ Tyan<br/><br/>
 
 Factory + FactorySettings<br/>
